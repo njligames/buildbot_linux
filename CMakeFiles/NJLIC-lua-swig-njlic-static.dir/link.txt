@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNJLIC-lua-swig-njlic-staticd.a  CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o
+/usr/bin/ranlib libNJLIC-lua-swig-njlic-staticd.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNJLIC-lua-swig-bullet3-staticd.a  CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o
+/usr/bin/ranlib libNJLIC-lua-swig-bullet3-staticd.a

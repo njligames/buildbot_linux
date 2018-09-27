@@ -1,0 +1,16 @@
+NJLIC-1.0.1-Linux.deb
+PLACEHOLDER
+_CPack_Packages/
+assets/
+doc/
+install/
+install_manifest.txt
+libNJLIC-lua-swig-bullet3-staticd.a
+libNJLIC-lua-swig-njlic-staticd.a
+libNJLIC-staticd.a
+libNJLIC.so
+lua
+luac
+tagfile
+
+
