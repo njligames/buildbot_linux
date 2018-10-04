@@ -902,9 +902,22 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialP
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.s
 
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o: njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp > CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o: njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.i: cmake_force
@@ -917,7 +930,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderPro
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o: njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.i: cmake_force
@@ -930,7 +943,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUD
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o: njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o: njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHU
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsClo
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCon
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.i: cmake_force
@@ -995,7 +1008,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFie
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.i: cmake_force
@@ -1008,7 +1021,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRay
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.i: cmake_force
@@ -1021,7 +1034,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWor
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.i: cmake_force
@@ -1034,7 +1047,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/Physi
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.i: cmake_force
@@ -1047,7 +1060,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/Physi
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.i: cmake_force
@@ -1060,7 +1073,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/Physi
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.i: cmake_force
@@ -1073,7 +1086,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.i: cmake_force
@@ -1086,7 +1099,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.i: cmake_force
@@ -1099,7 +1112,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.i: cmake_force
@@ -1112,7 +1125,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.i: cmake_force
@@ -1125,7 +1138,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.i: cmake_force
@@ -1138,7 +1151,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.i: cmake_force
@@ -1151,7 +1164,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.i: cmake_force
@@ -1164,7 +1177,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.i: cmake_force
@@ -1177,7 +1190,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.i: cmake_force
@@ -1190,7 +1203,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.i: cmake_force
@@ -1203,7 +1216,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.i: cmake_force
@@ -1216,7 +1229,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.i: cmake_force
@@ -1229,7 +1242,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.i: cmake_force
@@ -1242,7 +1255,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.i: cmake_force
@@ -1255,7 +1268,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.i: cmake_force
@@ -1268,7 +1281,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.i: cmake_force
@@ -1281,7 +1294,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.i: cmake_force
@@ -1294,7 +1307,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.i: cmake_force
@@ -1307,7 +1320,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o: njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.i: cmake_force
@@ -1320,7 +1333,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/Phys
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o: njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.i: cmake_force
@@ -1333,7 +1346,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.i: cmake_force
@@ -1346,7 +1359,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.i: cmake_force
@@ -1359,7 +1372,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.i: cmake_force
@@ -1372,7 +1385,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.i: cmake_force
@@ -1385,7 +1398,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.i: cmake_force
@@ -1398,7 +1411,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.i: cmake_force
@@ -1411,7 +1424,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.i: cmake_force
@@ -1424,7 +1437,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.i: cmake_force
@@ -1437,7 +1450,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.i: cmake_force
@@ -1450,7 +1463,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.i: cmake_force
@@ -1463,7 +1476,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.i: cmake_force
@@ -1476,7 +1489,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.i: cmake_force
@@ -1489,7 +1502,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.i: cmake_force
@@ -1502,7 +1515,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.i: cmake_force
@@ -1515,7 +1528,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.i: cmake_force
@@ -1528,7 +1541,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.i: cmake_force
@@ -1541,7 +1554,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.i: cmake_force
@@ -1554,7 +1567,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.i: cmake_force
@@ -1567,7 +1580,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.i: cmake_force
@@ -1580,7 +1593,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o: njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.i: cmake_force
@@ -1591,9 +1604,22 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.s
 
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o: njligames-njlic_engine/njli/graphics/Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Cube.cpp
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Cube.cpp > CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Cube.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s
+
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o: njligames-njlic_engine/njli/graphics/ImGuizmo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.i: cmake_force
@@ -1606,7 +1632,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.s: cm
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o: njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.i: cmake_force
@@ -1619,7 +1645,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o: njligames-njlic_engine/njli/graphics/Light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Light.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.i: cmake_force
@@ -1632,7 +1658,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.s: cmake
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o: njligames-njlic_engine/njli/graphics/Material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Material.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.i: cmake_force
@@ -1645,7 +1671,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.s: cm
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o: njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.i: cmake_force
@@ -1658,7 +1684,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o: njligames-njlic_engine/njli/graphics/Plane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Plane.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.i: cmake_force
@@ -1671,7 +1697,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.s: cmake
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o: njligames-njlic_engine/njli/graphics/Skinner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Skinner.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.i: cmake_force
@@ -1682,9 +1708,22 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Skinner.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.s
 
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o: njligames-njlic_engine/njli/graphics/Sprite2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2D.cpp
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2D.cpp > CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2D.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o: njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.i: cmake_force
@@ -1697,7 +1736,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.i: cmake_force
@@ -1710,7 +1749,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractF
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.i: cmake_force
@@ -1721,22 +1760,9 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractR
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.s
 
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp
-
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp > CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.i: cmake_force
@@ -1749,7 +1775,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.i: cmake_force
@@ -1760,9 +1786,22 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialP
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.s
 
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp > CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+
+CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.i: cmake_force
@@ -1773,22 +1812,9 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderPro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.s
 
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp
-
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp > CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-
-CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
-
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o: njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.i: cmake_force
@@ -1801,7 +1827,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebu
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o: njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.i: cmake_force
@@ -1814,7 +1840,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o: njligames-njlic_engine/njli/physics/PhysicsContact.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/PhysicsContact.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.i: cmake_force
@@ -1827,7 +1853,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o: njligames-njlic_engine/njli/physics/PhysicsField.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/PhysicsField.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.i: cmake_force
@@ -1840,7 +1866,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.s:
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o: njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.i: cmake_force
@@ -1853,7 +1879,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o: njligames-njlic_engine/njli/physics/PhysicsWorld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.i: cmake_force
@@ -1866,7 +1892,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.s:
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o: njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.i: cmake_force
@@ -1879,7 +1905,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o: njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.i: cmake_force
@@ -1892,7 +1918,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGho
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o: njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.i: cmake_force
@@ -1905,7 +1931,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRig
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o: njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.i: cmake_force
@@ -1918,7 +1944,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySof
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.i: cmake_force
@@ -1931,7 +1957,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.i: cmake_force
@@ -1944,7 +1970,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.i: cmake_force
@@ -1957,7 +1983,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.i: cmake_force
@@ -1970,7 +1996,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.i: cmake_force
@@ -1983,7 +2009,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.i: cmake_force
@@ -1996,7 +2022,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.i: cmake_force
@@ -2009,7 +2035,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o: njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.i: cmake_force
@@ -2022,7 +2048,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.i: cmake_force
@@ -2035,7 +2061,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.i: cmake_force
@@ -2048,7 +2074,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.i: cmake_force
@@ -2061,7 +2087,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.i: cmake_force
@@ -2074,7 +2100,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.i: cmake_force
@@ -2087,7 +2113,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.i: cmake_force
@@ -2100,7 +2126,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.i: cmake_force
@@ -2113,7 +2139,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.i: cmake_force
@@ -2126,7 +2152,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.i: cmake_force
@@ -2139,7 +2165,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeC
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.i: cmake_force
@@ -2152,7 +2178,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeH
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.i: cmake_force
@@ -2165,7 +2191,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeM
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.i: cmake_force
@@ -2178,7 +2204,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeS
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o: njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.i: cmake_force
@@ -2191,7 +2217,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeS
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o: njligames-njlic_engine/njli/platform/ColorUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/ColorUtil.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.i: cmake_force
@@ -2204,7 +2230,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o: njligames-njlic_engine/njli/platform/DeviceMouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/DeviceMouse.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.i: cmake_force
@@ -2217,7 +2243,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.s:
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o: njligames-njlic_engine/njli/platform/DeviceUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/DeviceUtil.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.i: cmake_force
@@ -2230,7 +2256,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o: njligames-njlic_engine/njli/platform/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/Engine.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.i: cmake_force
@@ -2243,7 +2269,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.s: cmak
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o: njligames-njlic_engine/njli/platform/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/Game.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.i: cmake_force
@@ -2256,7 +2282,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.s: cmake_
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o: njligames-njlic_engine/njli/platform/NJLIInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/NJLIInterface.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.i: cmake_force
@@ -2269,7 +2295,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o: njligames-njlic_engine/njli/platform/WorldInput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/WorldInput.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.i: cmake_force
@@ -2282,7 +2308,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o: njligames-njlic_engine/njli/platform/android_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/android_file.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.i: cmake_force
@@ -2295,7 +2321,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.s
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o: njligames-njlic_engine/njli/platform/easylogger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/easylogger.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.i: cmake_force
@@ -2308,7 +2334,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o: njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.i: cmake_force
@@ -2321,7 +2347,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o: njligames-njlic_engine/njli/platform/linux/File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/linux/File.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.i: cmake_force
@@ -2334,7 +2360,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o: njligames-njlic_engine/njli/platform/linux/Localization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/linux/Localization.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.i: cmake_force
@@ -2347,7 +2373,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o: njligames-njlic_engine/njli/platform/linux/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/linux/Log.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.i: cmake_force
@@ -2360,7 +2386,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o: njligames-njlic_engine/njli/sound/openal/Sound.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/sound/openal/Sound.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.i: cmake_force
@@ -2373,7 +2399,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o: njligames-njlic_engine/njli/sound/openal/WorldSound.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.i: cmake_force
@@ -2386,7 +2412,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o: njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.i: cmake_force
@@ -2399,7 +2425,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o: njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.i: cmake_force
@@ -2412,7 +2438,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o: njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.i: cmake_force
@@ -2425,7 +2451,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o: njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.i: cmake_force
@@ -2438,7 +2464,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMa
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o: njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.i: cmake_force
@@ -2451,7 +2477,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMa
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o: njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.i: cmake_force
@@ -2464,7 +2490,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMa
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o: njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.i: cmake_force
@@ -2477,7 +2503,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMa
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.i: cmake_force
@@ -2490,7 +2516,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.i: cmake_force
@@ -2503,7 +2529,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.i: cmake_force
@@ -2516,7 +2542,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.i: cmake_force
@@ -2529,7 +2555,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.i: cmake_force
@@ -2542,7 +2568,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.i: cmake_force
@@ -2555,7 +2581,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.i: cmake_force
@@ -2568,7 +2594,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.i: cmake_force
@@ -2581,7 +2607,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.i: cmake_force
@@ -2594,7 +2620,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.i: cmake_force
@@ -2607,7 +2633,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.i: cmake_force
@@ -2620,7 +2646,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.i: cmake_force
@@ -2633,7 +2659,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.i: cmake_force
@@ -2646,7 +2672,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.i: cmake_force
@@ -2659,7 +2685,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.i: cmake_force
@@ -2672,7 +2698,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o: njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.i: cmake_force
@@ -2685,7 +2711,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringB
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o: njligames-njlic_engine/lua/src/lapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lapi.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.i: cmake_force
@@ -2698,7 +2724,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o: njligames-njlic_engine/lua/src/lauxlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lauxlib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.i: cmake_force
@@ -2711,7 +2737,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o: njligames-njlic_engine/lua/src/lbaselib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lbaselib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.i: cmake_force
@@ -2724,7 +2750,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.s: cmake_forc
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o: njligames-njlic_engine/lua/src/lbitlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lbitlib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.i: cmake_force
@@ -2737,7 +2763,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o: njligames-njlic_engine/lua/src/lcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lcode.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.i: cmake_force
@@ -2750,7 +2776,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o: njligames-njlic_engine/lua/src/lcorolib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lcorolib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.i: cmake_force
@@ -2763,7 +2789,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.s: cmake_forc
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o: njligames-njlic_engine/lua/src/lctype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lctype.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.i: cmake_force
@@ -2776,7 +2802,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o: njligames-njlic_engine/lua/src/ldblib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ldblib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.i: cmake_force
@@ -2789,7 +2815,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o: njligames-njlic_engine/lua/src/ldebug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ldebug.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.i: cmake_force
@@ -2802,7 +2828,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o: njligames-njlic_engine/lua/src/ldo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ldo.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.i: cmake_force
@@ -2815,7 +2841,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o: njligames-njlic_engine/lua/src/ldump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ldump.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.i: cmake_force
@@ -2828,7 +2854,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o: njligames-njlic_engine/lua/src/lfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lfunc.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.i: cmake_force
@@ -2841,7 +2867,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o: njligames-njlic_engine/lua/src/lgc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lgc.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.i: cmake_force
@@ -2854,7 +2880,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o: njligames-njlic_engine/lua/src/linit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/linit.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.i: cmake_force
@@ -2867,7 +2893,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o: njligames-njlic_engine/lua/src/liolib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/liolib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.i: cmake_force
@@ -2880,7 +2906,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o: njligames-njlic_engine/lua/src/llex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/llex.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.i: cmake_force
@@ -2893,7 +2919,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o: njligames-njlic_engine/lua/src/lmathlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lmathlib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.i: cmake_force
@@ -2906,7 +2932,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.s: cmake_forc
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o: njligames-njlic_engine/lua/src/lmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lmem.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.i: cmake_force
@@ -2919,7 +2945,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o: njligames-njlic_engine/lua/src/loadlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/loadlib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.i: cmake_force
@@ -2932,7 +2958,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o: njligames-njlic_engine/lua/src/lobject.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lobject.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.i: cmake_force
@@ -2945,7 +2971,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o: njligames-njlic_engine/lua/src/lopcodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lopcodes.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.i: cmake_force
@@ -2958,7 +2984,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.s: cmake_forc
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o: njligames-njlic_engine/lua/src/loslib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/loslib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.i: cmake_force
@@ -2971,7 +2997,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o: njligames-njlic_engine/lua/src/lparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lparser.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.i: cmake_force
@@ -2984,7 +3010,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o: njligames-njlic_engine/lua/src/lstate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lstate.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.i: cmake_force
@@ -2997,7 +3023,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o: njligames-njlic_engine/lua/src/lstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lstring.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.i: cmake_force
@@ -3010,7 +3036,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o: njligames-njlic_engine/lua/src/lstrlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lstrlib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.i: cmake_force
@@ -3023,7 +3049,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o: njligames-njlic_engine/lua/src/ltable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ltable.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.i: cmake_force
@@ -3036,7 +3062,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o: njligames-njlic_engine/lua/src/ltablib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ltablib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.i: cmake_force
@@ -3049,7 +3075,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o: njligames-njlic_engine/lua/src/ltm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/ltm.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.i: cmake_force
@@ -3062,7 +3088,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o: njligames-njlic_engine/lua/src/lundump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lundump.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.i: cmake_force
@@ -3075,7 +3101,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o: njligames-njlic_engine/lua/src/lutf8lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lutf8lib.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.i: cmake_force
@@ -3088,7 +3114,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.s: cmake_forc
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o: njligames-njlic_engine/lua/src/lvm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lvm.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.i: cmake_force
@@ -3101,7 +3127,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o: njligames-njlic_engine/lua/src/lzio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/src/lzio.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.i: cmake_force
@@ -3114,7 +3140,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.s: cmake_force
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o: njligames-njlic_engine/lua/exts/lualoadexts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/lualoadexts.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.i: cmake_force
@@ -3127,7 +3153,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.s: cmake_
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o: njligames-njlic_engine/lua/exts/luasocket/auxiliar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.i: cmake_force
@@ -3140,7 +3166,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.s:
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o: njligames-njlic_engine/lua/exts/luasocket/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/buffer.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.i: cmake_force
@@ -3153,7 +3179,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o: njligames-njlic_engine/lua/exts/luasocket/except.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/except.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.i: cmake_force
@@ -3166,7 +3192,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o: njligames-njlic_engine/lua/exts/luasocket/inet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/inet.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.i: cmake_force
@@ -3179,7 +3205,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.s: cma
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o: njligames-njlic_engine/lua/exts/luasocket/io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/io.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.i: cmake_force
@@ -3192,7 +3218,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.s: cmake
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o: njligames-njlic_engine/lua/exts/luasocket/luasocket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/luasocket.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.i: cmake_force
@@ -3205,7 +3231,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.s
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o: njligames-njlic_engine/lua/exts/luasocket/mime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/mime.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.i: cmake_force
@@ -3218,7 +3244,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.s: cma
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o: njligames-njlic_engine/lua/exts/luasocket/options.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/options.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.i: cmake_force
@@ -3231,7 +3257,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o: njligames-njlic_engine/lua/exts/luasocket/select.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/select.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.i: cmake_force
@@ -3244,7 +3270,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o: njligames-njlic_engine/lua/exts/luasocket/serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/serial.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.i: cmake_force
@@ -3257,7 +3283,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o: njligames-njlic_engine/lua/exts/luasocket/tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/tcp.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.i: cmake_force
@@ -3270,7 +3296,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.s: cmak
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o: njligames-njlic_engine/lua/exts/luasocket/timeout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/timeout.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.i: cmake_force
@@ -3283,7 +3309,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o: njligames-njlic_engine/lua/exts/luasocket/udp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/udp.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.i: cmake_force
@@ -3296,7 +3322,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.s: cmak
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o: njligames-njlic_engine/lua/exts/luasocket/unix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/unix.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.i: cmake_force
@@ -3309,7 +3335,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.s: cma
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o: njligames-njlic_engine/lua/exts/luasocket/unixdgram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.i: cmake_force
@@ -3322,7 +3348,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.s
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o: njligames-njlic_engine/lua/exts/luasocket/unixstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/unixstream.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.i: cmake_force
@@ -3335,7 +3361,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o: njligames-njlic_engine/lua/exts/luasocket/usocket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocket/usocket.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.i: cmake_force
@@ -3348,7 +3374,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.s: 
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o: njligames-njlic_engine/lua/exts/luasocketscripts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/lua/exts/luasocketscripts.c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.i: cmake_force
@@ -3361,7 +3387,7 @@ CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.s: c
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o: CMakeFiles/NJLIC-exe.dir/flags.make
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o: njligames-njlic_engine/njli/platform/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o -c /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/main.cpp
 
 CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.i: cmake_force
@@ -3439,6 +3465,7 @@ NJLIC__exe_OBJECTS = \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.o" \
+"CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o" \
@@ -3492,6 +3519,7 @@ NJLIC__exe_OBJECTS = \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o" \
+"CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o" \
@@ -3499,14 +3527,14 @@ NJLIC__exe_OBJECTS = \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o" \
+"CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o" \
-"CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o" \
+"CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o" \
-"CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o" \
 "CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o" \
@@ -3633,348 +3661,350 @@ NJLIC__exe_OBJECTS = \
 # External object files for target NJLIC-exe
 NJLIC__exe_EXTERNAL_OBJECTS =
 
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/modules/lua/lbit.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractActionable.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractDecorator.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractFactoryObject.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractTransform.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Action.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Camera.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Clock.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/CollisionResponse.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Font.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/GameClock.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Image.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/JLIFactoryTypes.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/JsonJLI.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Node.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/NodeState.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/NodeStateMachine.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Scene.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/SceneState.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/SceneStateMachine.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/StopWatch.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Thread.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Timer.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/World.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldClock.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldFactory.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldLuaVirtualMachine.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldResourceLoader.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldSocket.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldState.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldStateMachine.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Xml.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/AbstractBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ActionBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/CameraBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ClockBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/CollisionResponseBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/FontBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ImageBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/JsonJLIBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/LevelOfDetailBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/LightBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeStateBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeStateMachineBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ParticleEmitterBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/PlaneBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneStateBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneStateMachineBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SkinnerBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SpriteFrameAtlasBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/StopWatchBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ThreadBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/TimerBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/WorldStateBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/WorldStateMachineBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/XmlBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/CubeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/build.make
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libHACD.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
-PLACEHOLDER: thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
-PLACEHOLDER: thirdparty/ogg/lib/linux/Debug/libogg.so
-PLACEHOLDER: thirdparty/vorbis/lib/linux/Debug/libvorbis.so
-PLACEHOLDER: thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
-PLACEHOLDER: thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libopenal.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libGL.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libGLU.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libsndio.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libX11.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXext.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXcursor.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXinerama.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXi.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXrandr.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXss.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
-PLACEHOLDER: thirdparty/sdl2/lib/linux/Debug/libSDL2.a
-PLACEHOLDER: /usr/local/lib/libGLEW.so
-PLACEHOLDER: libNJLIC-lua-swig-njlic-staticd.a
-PLACEHOLDER: libNJLIC-lua-swig-bullet3-staticd.a
-PLACEHOLDER: libNJLIC-staticd.a
-PLACEHOLDER: libNJLIC-lua-swig-bullet3-staticd.a
-PLACEHOLDER: libNJLIC-staticd.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libHACD.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
-PLACEHOLDER: thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
-PLACEHOLDER: thirdparty/ogg/lib/linux/Debug/libogg.so
-PLACEHOLDER: thirdparty/vorbis/lib/linux/Debug/libvorbis.so
-PLACEHOLDER: thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
-PLACEHOLDER: thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libopenal.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libGL.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libGLU.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libsndio.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libX11.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXext.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXcursor.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXinerama.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXi.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXrandr.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXss.so
-PLACEHOLDER: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
-PLACEHOLDER: thirdparty/sdl2/lib/linux/Debug/libSDL2.a
-PLACEHOLDER: /usr/local/lib/libGLEW.so
-PLACEHOLDER: libNJLIC-lua-swig-njlic-staticd.a
-PLACEHOLDER: thirdparty/bullet3/lib/linux/Debug/libBullet2FileLoader.a
-PLACEHOLDER: CMakeFiles/NJLIC-exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Linking CXX executable PLACEHOLDER"
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/modules/lua/lbit.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractActionable.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractDecorator.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractFactoryObject.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractTransform.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Action.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Camera.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Clock.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/CollisionResponse.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Font.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/GameClock.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Image.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/JLIFactoryTypes.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/JsonJLI.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Node.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/NodeState.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/NodeStateMachine.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Scene.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/SceneState.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/SceneStateMachine.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/StopWatch.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Thread.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Timer.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/World.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldClock.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldFactory.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldLuaVirtualMachine.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldResourceLoader.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldSocket.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldState.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldStateMachine.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Xml.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/AbstractBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ActionBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/CameraBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ClockBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/CollisionResponseBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/FontBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ImageBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/JsonJLIBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/LevelOfDetailBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/LightBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeStateBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeStateMachineBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ParticleEmitterBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/PlaneBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneStateBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneStateMachineBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SkinnerBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SpriteFrameAtlasBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/StopWatchBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ThreadBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/TimerBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/WorldStateBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/WorldStateMachineBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/XmlBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/CubeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractFrameBufferObject.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/DeviceTouch.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/File.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Localization.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/linux/Log.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/build.make
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libHACD.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
+NJLIC-exe: thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
+NJLIC-exe: thirdparty/ogg/lib/linux/Debug/libogg.so
+NJLIC-exe: thirdparty/vorbis/lib/linux/Debug/libvorbis.so
+NJLIC-exe: thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
+NJLIC-exe: thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libopenal.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libGL.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libGLU.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libsndio.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libX11.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXext.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXcursor.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXinerama.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXi.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXrandr.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXss.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+NJLIC-exe: thirdparty/sdl2/lib/linux/Debug/libSDL2.a
+NJLIC-exe: /usr/local/lib/libGLEW.so
+NJLIC-exe: libNJLIC-lua-swig-njlic-staticd.a
+NJLIC-exe: libNJLIC-lua-swig-bullet3-staticd.a
+NJLIC-exe: libNJLIC-staticd.a
+NJLIC-exe: libNJLIC-lua-swig-bullet3-staticd.a
+NJLIC-exe: libNJLIC-staticd.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libHACD.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
+NJLIC-exe: thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
+NJLIC-exe: thirdparty/ogg/lib/linux/Debug/libogg.so
+NJLIC-exe: thirdparty/vorbis/lib/linux/Debug/libvorbis.so
+NJLIC-exe: thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
+NJLIC-exe: thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libopenal.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libGL.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libGLU.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libsndio.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libX11.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXext.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXcursor.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXinerama.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXi.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXrandr.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXss.so
+NJLIC-exe: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+NJLIC-exe: thirdparty/sdl2/lib/linux/Debug/libSDL2.a
+NJLIC-exe: /usr/local/lib/libGLEW.so
+NJLIC-exe: libNJLIC-lua-swig-njlic-staticd.a
+NJLIC-exe: thirdparty/bullet3/lib/linux/Debug/libBullet2FileLoader.a
+NJLIC-exe: CMakeFiles/NJLIC-exe.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Linking CXX executable NJLIC-exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NJLIC-exe.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/cmake -E copy_directory /home/jamesfolk/work/test_project_repo/buildbot_linux/gameproject/assets /home/jamesfolk/work/test_project_repo/buildbot_linux/assets
 
 # Rule to build all files generated by this target.
-CMakeFiles/NJLIC-exe.dir/build: PLACEHOLDER
+CMakeFiles/NJLIC-exe.dir/build: NJLIC-exe
 
 .PHONY : CMakeFiles/NJLIC-exe.dir/build
 

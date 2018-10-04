@@ -61,7 +61,7 @@ set_target_properties(NJLIC::NJLIC-static PROPERTIES
 add_library(NJLIC::NJLIC-lua-swig-bullet3-static STATIC IMPORTED)
 
 set_target_properties(NJLIC::NJLIC-lua-swig-bullet3-static PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;BULLET3_SWIG=1;BT_INFINITY"
+  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;BULLET3_SWIG=1;BT_INFINITY;NJLIC_SWIG=1;BT_INFINITY;BULLET3_SWIG=1;BT_INFINITY"
   INTERFACE_LINK_LIBRARIES "NJLIC::NJLIC-static;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet2FileLoader>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Collision>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Common>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Dynamics>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Geometry>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3OpenCL_clew>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletCollision>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletDynamics>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletFileLoader>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletInverseDynamics>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletInverseDynamicsUtils>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletSoftBody>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletWorldImporter>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletXmlWorldImporter>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ConvexDecomposition>;\$<\$<NOT:\$<CONFIG:DEBUG>>:GIMPACTUtils>;\$<\$<NOT:\$<CONFIG:DEBUG>>:HACD>;\$<\$<NOT:\$<CONFIG:DEBUG>>:LinearMath>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ImGuizmo>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ogg>;\$<\$<NOT:\$<CONFIG:DEBUG>>:vorbis>;\$<\$<NOT:\$<CONFIG:DEBUG>>:vorbisenc>;\$<\$<NOT:\$<CONFIG:DEBUG>>:vorbisfile>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libopenal.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libGL.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libGLU.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:m>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libsndio.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libX11.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXext.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXcursor.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXinerama.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXi.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXrandr.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXss.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libXxf86vm.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:dbus-1>;\$<\$<NOT:\$<CONFIG:DEBUG>>:SDL2>;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/local/lib/libGLEW.so>;\$<\$<NOT:\$<CONFIG:DEBUG>>:NJLIC-lua-swig-njlic-static>;-Wl,--no-undefined;-ldl;-lsndio;-pthread"
 )
 
@@ -69,7 +69,7 @@ set_target_properties(NJLIC::NJLIC-lua-swig-bullet3-static PROPERTIES
 add_library(NJLIC::NJLIC-lua-swig-njlic-static STATIC IMPORTED)
 
 set_target_properties(NJLIC::NJLIC-lua-swig-njlic-static PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY"
+  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;NJLIC_SWIG=1;BT_INFINITY"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

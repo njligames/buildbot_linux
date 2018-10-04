@@ -64,7 +64,6 @@ njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engin
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/Camera.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/Clock.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/CollisionResponse.h
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/CubeBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/Font.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/Image.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/JLIFactoryTypes.h
@@ -115,10 +114,12 @@ njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engin
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/XmlBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.h
+njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/CubeBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.h
+njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.h
@@ -184,6 +185,7 @@ njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engin
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/Light.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/Material.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/MaterialProperty.h
+njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/MeshGeometry.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/ParticleEmitter.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/Plane.h
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/njli/graphics/ShaderProgram.h
@@ -358,6 +360,7 @@ njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engin
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/Light.swg
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/Material.swg
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/MaterialProperty.swg
+njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/MeshGeometry.swg
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/ParticleEmitter.swg
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/Plane.swg
 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp: njligames-njlic_engine/swig.in/script/njlic/graphics/ShaderProgram.swg

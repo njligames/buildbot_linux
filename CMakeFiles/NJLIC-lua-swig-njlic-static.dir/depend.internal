@@ -21,7 +21,6 @@ CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux
  njligames-njlic_engine/njli/Camera.h
  njligames-njlic_engine/njli/Clock.h
  njligames-njlic_engine/njli/CollisionResponse.h
- njligames-njlic_engine/njli/CubeBuilder.h
  njligames-njlic_engine/njli/Font.h
  njligames-njlic_engine/njli/Image.h
  njligames-njlic_engine/njli/JLIFactoryTypes.h
@@ -72,10 +71,12 @@ CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux
  njligames-njlic_engine/njli/builders/XmlBuilder.h
  njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.h
  njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.h
+ njligames-njlic_engine/njli/builders/graphics/CubeBuilder.h
  njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.h
  njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.h
  njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.h
  njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.h
+ njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
  njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.h
  njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.h
  njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.h
@@ -141,6 +142,7 @@ CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux
  njligames-njlic_engine/njli/graphics/Light.h
  njligames-njlic_engine/njli/graphics/Material.h
  njligames-njlic_engine/njli/graphics/MaterialProperty.h
+ njligames-njlic_engine/njli/graphics/MeshGeometry.h
  njligames-njlic_engine/njli/graphics/ParticleEmitter.h
  njligames-njlic_engine/njli/graphics/Plane.h
  njligames-njlic_engine/njli/graphics/ShaderProgram.h

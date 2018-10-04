@@ -2854,3 +2854,1472 @@ Makefile:126: recipe for target 'cmTC_f5b21/fast' failed
 make: *** [cmTC_f5b21/fast] Error 2
 
 
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39f5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39f5f.dir/build.make CMakeFiles/cmTC_39f5f.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39f5f.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_39f5f.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:1:0: error: -mpreferred-stack-boundary=2 is not between 4 and 12
+ int x = 0; int main(int argc, char **argv) {}
+ ^
+CMakeFiles/cmTC_39f5f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_39f5f.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_39f5f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39f5f/fast' failed
+make: *** [cmTC_39f5f/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0ab6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0ab6.dir/build.make CMakeFiles/cmTC_e0ab6.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0ab6.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_e0ab6.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_e0ab6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e0ab6.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e0ab6.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e0ab6/fast' failed
+make: *** [cmTC_e0ab6/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e428/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e428.dir/build.make CMakeFiles/cmTC_0e428.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e428.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_0e428.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_0e428.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0e428.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0e428.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e428/fast' failed
+make: *** [cmTC_0e428/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d81bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d81bc.dir/build.make CMakeFiles/cmTC_d81bc.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d81bc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d81bc.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: libunwind.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d81bc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d81bc.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d81bc.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d81bc/fast' failed
+make: *** [cmTC_d81bc/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a96ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a96ba.dir/build.make CMakeFiles/cmTC_a96ba.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a96ba.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_a96ba.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a96ba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a96ba.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_a96ba.dir/CheckFunctionExists.c.o  -o cmTC_a96ba 
+CMakeFiles/cmTC_a96ba.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a96ba.dir/build.make:86: recipe for target 'cmTC_a96ba' failed
+make[1]: *** [cmTC_a96ba] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a96ba/fast' failed
+make: *** [cmTC_a96ba/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_063aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_063aa.dir/build.make CMakeFiles/cmTC_063aa.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_063aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_063aa.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_063aa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_063aa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTC_063aa.dir/CheckFunctionExists.c.o  -o cmTC_063aa 
+CMakeFiles/cmTC_063aa.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_063aa.dir/build.make:86: recipe for target 'cmTC_063aa' failed
+make[1]: *** [cmTC_063aa] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_063aa/fast' failed
+make: *** [cmTC_063aa/fast] Error 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4588f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4588f.dir/build.make CMakeFiles/cmTC_4588f.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4588f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_4588f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4588f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4588f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strrev    CMakeFiles/cmTC_4588f.dir/CheckFunctionExists.c.o  -o cmTC_4588f 
+CMakeFiles/cmTC_4588f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4588f.dir/build.make:86: recipe for target 'cmTC_4588f' failed
+make[1]: *** [cmTC_4588f] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4588f/fast' failed
+make: *** [cmTC_4588f/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aeab6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aeab6.dir/build.make CMakeFiles/cmTC_aeab6.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aeab6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_aeab6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aeab6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeab6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strupr    CMakeFiles/cmTC_aeab6.dir/CheckFunctionExists.c.o  -o cmTC_aeab6 
+CMakeFiles/cmTC_aeab6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aeab6.dir/build.make:86: recipe for target 'cmTC_aeab6' failed
+make[1]: *** [cmTC_aeab6] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aeab6/fast' failed
+make: *** [cmTC_aeab6/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efa41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efa41.dir/build.make CMakeFiles/cmTC_efa41.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efa41.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_efa41.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_efa41
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efa41.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strlwr    CMakeFiles/cmTC_efa41.dir/CheckFunctionExists.c.o  -o cmTC_efa41 
+CMakeFiles/cmTC_efa41.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_efa41.dir/build.make:86: recipe for target 'cmTC_efa41' failed
+make[1]: *** [cmTC_efa41] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_efa41/fast' failed
+make: *** [cmTC_efa41/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9cd52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9cd52.dir/build.make CMakeFiles/cmTC_9cd52.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cd52.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_9cd52.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cd52
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cd52.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=itoa    CMakeFiles/cmTC_9cd52.dir/CheckFunctionExists.c.o  -o cmTC_9cd52 
+CMakeFiles/cmTC_9cd52.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9cd52.dir/build.make:86: recipe for target 'cmTC_9cd52' failed
+make[1]: *** [cmTC_9cd52] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9cd52/fast' failed
+make: *** [cmTC_9cd52/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b13f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b13f.dir/build.make CMakeFiles/cmTC_9b13f.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b13f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_9b13f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9b13f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b13f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ltoa    CMakeFiles/cmTC_9b13f.dir/CheckFunctionExists.c.o  -o cmTC_9b13f 
+CMakeFiles/cmTC_9b13f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9b13f.dir/build.make:86: recipe for target 'cmTC_9b13f' failed
+make[1]: *** [cmTC_9b13f] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9b13f/fast' failed
+make: *** [cmTC_9b13f/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5cc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5cc1.dir/build.make CMakeFiles/cmTC_c5cc1.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5cc1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_c5cc1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5cc1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cc1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_uitoa    CMakeFiles/cmTC_c5cc1.dir/CheckFunctionExists.c.o  -o cmTC_c5cc1 
+CMakeFiles/cmTC_c5cc1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c5cc1.dir/build.make:86: recipe for target 'cmTC_c5cc1' failed
+make[1]: *** [cmTC_c5cc1] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c5cc1/fast' failed
+make: *** [cmTC_c5cc1/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8b45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8b45.dir/build.make CMakeFiles/cmTC_d8b45.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8b45.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_d8b45.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8b45
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b45.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ultoa    CMakeFiles/cmTC_d8b45.dir/CheckFunctionExists.c.o  -o cmTC_d8b45 
+CMakeFiles/cmTC_d8b45.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d8b45.dir/build.make:86: recipe for target 'cmTC_d8b45' failed
+make[1]: *** [cmTC_d8b45] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d8b45/fast' failed
+make: *** [cmTC_d8b45/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1464e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1464e.dir/build.make CMakeFiles/cmTC_1464e.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1464e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_1464e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1464e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1464e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_i64toa    CMakeFiles/cmTC_1464e.dir/CheckFunctionExists.c.o  -o cmTC_1464e 
+CMakeFiles/cmTC_1464e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1464e.dir/build.make:86: recipe for target 'cmTC_1464e' failed
+make[1]: *** [cmTC_1464e] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1464e/fast' failed
+make: *** [cmTC_1464e/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74ef0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74ef0.dir/build.make CMakeFiles/cmTC_74ef0.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74ef0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_74ef0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74ef0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74ef0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ui64toa    CMakeFiles/cmTC_74ef0.dir/CheckFunctionExists.c.o  -o cmTC_74ef0 
+CMakeFiles/cmTC_74ef0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_74ef0.dir/build.make:86: recipe for target 'cmTC_74ef0' failed
+make[1]: *** [cmTC_74ef0] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74ef0/fast' failed
+make: *** [cmTC_74ef0/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0339a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0339a.dir/build.make CMakeFiles/cmTC_0339a.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0339a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_0339a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0339a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0339a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_stricmp    CMakeFiles/cmTC_0339a.dir/CheckFunctionExists.c.o  -o cmTC_0339a 
+CMakeFiles/cmTC_0339a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0339a.dir/build.make:86: recipe for target 'cmTC_0339a' failed
+make[1]: *** [cmTC_0339a] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0339a/fast' failed
+make: *** [cmTC_0339a/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc0a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc0a5.dir/build.make CMakeFiles/cmTC_dc0a5.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc0a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_dc0a5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc0a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strnicmp    CMakeFiles/cmTC_dc0a5.dir/CheckFunctionExists.c.o  -o cmTC_dc0a5 
+CMakeFiles/cmTC_dc0a5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dc0a5.dir/build.make:86: recipe for target 'cmTC_dc0a5' failed
+make[1]: *** [cmTC_dc0a5] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc0a5/fast' failed
+make: *** [cmTC_dc0a5/fast] Error 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf27f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf27f.dir/build.make CMakeFiles/cmTC_cf27f.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf27f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf27f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysctlbyname    CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o  -o cmTC_cf27f 
+CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf27f.dir/build.make:86: recipe for target 'cmTC_cf27f' failed
+make[1]: *** [cmTC_cf27f] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf27f/fast' failed
+make: *** [cmTC_cf27f/fast] Error 2
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f331b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f331b.dir/build.make CMakeFiles/cmTC_f331b.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f331b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_f331b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f331b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f331b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=iconv_open    CMakeFiles/cmTC_f331b.dir/CheckFunctionExists.c.o  -o cmTC_f331b -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f331b.dir/build.make:86: recipe for target 'cmTC_f331b' failed
+make[1]: *** [cmTC_f331b] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f331b/fast' failed
+make: *** [cmTC_f331b/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_326cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_326cf.dir/build.make CMakeFiles/cmTC_326cf.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_326cf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_326cf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_326cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_326cf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alloca    CMakeFiles/cmTC_326cf.dir/CheckFunctionExists.c.o  -o cmTC_326cf 
+CMakeFiles/cmTC_326cf.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x1f): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_326cf.dir/build.make:86: recipe for target 'cmTC_326cf' failed
+make[1]: *** [cmTC_326cf] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_326cf/fast' failed
+make: *** [cmTC_326cf/fast] Error 2
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61452/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61452.dir/build.make CMakeFiles/cmTC_61452.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61452.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61452.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: audio/audiolib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_61452.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_61452.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_61452.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61452/fast' failed
+make: *** [cmTC_61452/fast] Error 2
+
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8228f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8228f.dir/build.make CMakeFiles/cmTC_8228f.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8228f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8228f.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: samplerate.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_8228f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8228f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8228f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8228f/fast' failed
+make: *** [cmTC_8228f/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc9eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc9eb.dir/build.make CMakeFiles/cmTC_dc9eb.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc9eb.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_RPI  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -o CMakeFiles/cmTC_dc9eb.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:30: fatal error: bcm_host.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_dc9eb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dc9eb.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dc9eb.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc9eb/fast' failed
+make: *** [cmTC_dc9eb/fast] Error 2
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b390/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b390.dir/build.make CMakeFiles/cmTC_4b390.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b390.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGLES_V1   -o CMakeFiles/cmTC_4b390.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: GLES/gl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_4b390.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4b390.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4b390.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b390/fast' failed
+make: *** [cmTC_4b390/fast] Error 2
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90d8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90d8a.dir/build.make CMakeFiles/cmTC_90d8a.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90d8a.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_VIVANTE_VDK   -o CMakeFiles/cmTC_90d8a.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:28: fatal error: gc_vdk.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_90d8a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_90d8a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_90d8a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90d8a/fast' failed
+make: *** [cmTC_90d8a/fast] Error 2
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a188d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a188d.dir/build.make CMakeFiles/cmTC_a188d.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a188d.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_VIVANTE_EGL_FB   -o CMakeFiles/cmTC_a188d.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:4:36: fatal error: EGL/eglvivante.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a188d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a188d.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a188d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a188d/fast' failed
+make: *** [cmTC_a188d/fast] Error 2
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file fcitx/frontend.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c52b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c52b.dir/build.make CMakeFiles/cmTC_8c52b.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c52b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8c52b.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: fcitx/frontend.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_8c52b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8c52b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8c52b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8c52b/fast' failed
+make: *** [cmTC_8c52b/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b32ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b32ca.dir/build.make CMakeFiles/cmTC_b32ca.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b32ca.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTC_b32ca.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: tslib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_b32ca.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b32ca.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b32ca.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b32ca/fast' failed
+make: *** [cmTC_b32ca/fast] Error 2
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae516/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae516.dir/build.make CMakeFiles/cmTC_ae516.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae516.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_ae516.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae516
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae516.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTC_ae516.dir/CheckFunctionExists.c.o  -o cmTC_ae516 -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ae516.dir/build.make:86: recipe for target 'cmTC_ae516' failed
+make[1]: *** [cmTC_ae516] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae516/fast' failed
+make: *** [cmTC_ae516/fast] Error 2
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad73c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad73c.dir/build.make CMakeFiles/cmTC_ad73c.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad73c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ad73c.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: libusb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ad73c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ad73c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ad73c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad73c/fast' failed
+make: *** [cmTC_ad73c/fast] Error 2
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69fa2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69fa2.dir/build.make CMakeFiles/cmTC_69fa2.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69fa2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_69fa2.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69fa2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69fa2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTC_69fa2.dir/CheckFunctionExists.c.o  -o cmTC_69fa2 -lusb 
+CMakeFiles/cmTC_69fa2.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `hid_init'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69fa2.dir/build.make:86: recipe for target 'cmTC_69fa2' failed
+make[1]: *** [cmTC_69fa2] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69fa2/fast' failed
+make: *** [cmTC_69fa2/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2802/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2802.dir/build.make CMakeFiles/cmTC_d2802.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2802.dir/src.c.o
+/usr/bin/cc   -DHAVE_USBHID  -DHAVE_USB_H   -o CMakeFiles/cmTC_d2802.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:10:34: fatal error: dev/usb/usb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d2802.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d2802.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d2802.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2802/fast' failed
+make: *** [cmTC_d2802/fast] Error 2
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be324/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be324.dir/build.make CMakeFiles/cmTC_be324.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be324.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREAD_NP_H  -DHAVE_USB_H -D_REENTRANT -pthread   -o CMakeFiles/cmTC_be324.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:3:34: fatal error: pthread_np.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_be324.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_be324.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_be324.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_be324/fast' failed
+make: *** [cmTC_be324/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db601/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db601.dir/build.make CMakeFiles/cmTC_db601.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db601.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -DHAVE_USB_H -D_REENTRANT -pthread   -o CMakeFiles/cmTC_db601.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db601
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db601.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -DHAVE_USB_H -D_REENTRANT -pthread    CMakeFiles/cmTC_db601.dir/CheckFunctionExists.c.o  -o cmTC_db601 
+CMakeFiles/cmTC_db601.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_db601.dir/build.make:86: recipe for target 'cmTC_db601' failed
+make[1]: *** [cmTC_db601] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db601/fast' failed
+make: *** [cmTC_db601/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04625/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04625.dir/build.make CMakeFiles/cmTC_04625.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04625.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_04625.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:1:0: error: -mpreferred-stack-boundary=2 is not between 4 and 12
+ int x = 0; int main(int argc, char **argv) {}
+ ^
+CMakeFiles/cmTC_04625.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_04625.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_04625.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04625/fast' failed
+make: *** [cmTC_04625/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9393/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9393.dir/build.make CMakeFiles/cmTC_b9393.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9393.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_b9393.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_b9393.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b9393.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b9393.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b9393/fast' failed
+make: *** [cmTC_b9393/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60059/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60059.dir/build.make CMakeFiles/cmTC_60059.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60059.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_60059.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_60059.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_60059.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_60059.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_60059/fast' failed
+make: *** [cmTC_60059/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1e17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1e17.dir/build.make CMakeFiles/cmTC_d1e17.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1e17.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1e17.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: libunwind.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d1e17.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d1e17.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d1e17.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d1e17/fast' failed
+make: *** [cmTC_d1e17/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8863b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8863b.dir/build.make CMakeFiles/cmTC_8863b.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8863b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_8863b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8863b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8863b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_8863b.dir/CheckFunctionExists.c.o  -o cmTC_8863b 
+CMakeFiles/cmTC_8863b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8863b.dir/build.make:86: recipe for target 'cmTC_8863b' failed
+make[1]: *** [cmTC_8863b] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8863b/fast' failed
+make: *** [cmTC_8863b/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce2b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce2b4.dir/build.make CMakeFiles/cmTC_ce2b4.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce2b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_ce2b4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce2b4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce2b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTC_ce2b4.dir/CheckFunctionExists.c.o  -o cmTC_ce2b4 
+CMakeFiles/cmTC_ce2b4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ce2b4.dir/build.make:86: recipe for target 'cmTC_ce2b4' failed
+make[1]: *** [cmTC_ce2b4] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce2b4/fast' failed
+make: *** [cmTC_ce2b4/fast] Error 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03f04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03f04.dir/build.make CMakeFiles/cmTC_03f04.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03f04.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_03f04.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03f04
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f04.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strrev    CMakeFiles/cmTC_03f04.dir/CheckFunctionExists.c.o  -o cmTC_03f04 
+CMakeFiles/cmTC_03f04.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_03f04.dir/build.make:86: recipe for target 'cmTC_03f04' failed
+make[1]: *** [cmTC_03f04] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_03f04/fast' failed
+make: *** [cmTC_03f04/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc3a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc3a8.dir/build.make CMakeFiles/cmTC_cc3a8.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc3a8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_cc3a8.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc3a8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc3a8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strupr    CMakeFiles/cmTC_cc3a8.dir/CheckFunctionExists.c.o  -o cmTC_cc3a8 
+CMakeFiles/cmTC_cc3a8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cc3a8.dir/build.make:86: recipe for target 'cmTC_cc3a8' failed
+make[1]: *** [cmTC_cc3a8] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc3a8/fast' failed
+make: *** [cmTC_cc3a8/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6f5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6f5c.dir/build.make CMakeFiles/cmTC_d6f5c.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6f5c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_d6f5c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d6f5c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f5c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strlwr    CMakeFiles/cmTC_d6f5c.dir/CheckFunctionExists.c.o  -o cmTC_d6f5c 
+CMakeFiles/cmTC_d6f5c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d6f5c.dir/build.make:86: recipe for target 'cmTC_d6f5c' failed
+make[1]: *** [cmTC_d6f5c] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6f5c/fast' failed
+make: *** [cmTC_d6f5c/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01b82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01b82.dir/build.make CMakeFiles/cmTC_01b82.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01b82.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_01b82.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01b82
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b82.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=itoa    CMakeFiles/cmTC_01b82.dir/CheckFunctionExists.c.o  -o cmTC_01b82 
+CMakeFiles/cmTC_01b82.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_01b82.dir/build.make:86: recipe for target 'cmTC_01b82' failed
+make[1]: *** [cmTC_01b82] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_01b82/fast' failed
+make: *** [cmTC_01b82/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dbf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dbf2.dir/build.make CMakeFiles/cmTC_5dbf2.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dbf2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_5dbf2.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5dbf2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dbf2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ltoa    CMakeFiles/cmTC_5dbf2.dir/CheckFunctionExists.c.o  -o cmTC_5dbf2 
+CMakeFiles/cmTC_5dbf2.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5dbf2.dir/build.make:86: recipe for target 'cmTC_5dbf2' failed
+make[1]: *** [cmTC_5dbf2] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5dbf2/fast' failed
+make: *** [cmTC_5dbf2/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_892b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_892b6.dir/build.make CMakeFiles/cmTC_892b6.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_892b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_892b6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_892b6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_892b6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_uitoa    CMakeFiles/cmTC_892b6.dir/CheckFunctionExists.c.o  -o cmTC_892b6 
+CMakeFiles/cmTC_892b6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_892b6.dir/build.make:86: recipe for target 'cmTC_892b6' failed
+make[1]: *** [cmTC_892b6] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_892b6/fast' failed
+make: *** [cmTC_892b6/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0181a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0181a.dir/build.make CMakeFiles/cmTC_0181a.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0181a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_0181a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0181a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0181a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ultoa    CMakeFiles/cmTC_0181a.dir/CheckFunctionExists.c.o  -o cmTC_0181a 
+CMakeFiles/cmTC_0181a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0181a.dir/build.make:86: recipe for target 'cmTC_0181a' failed
+make[1]: *** [cmTC_0181a] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0181a/fast' failed
+make: *** [cmTC_0181a/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69305/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69305.dir/build.make CMakeFiles/cmTC_69305.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69305.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_69305.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69305
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69305.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_i64toa    CMakeFiles/cmTC_69305.dir/CheckFunctionExists.c.o  -o cmTC_69305 
+CMakeFiles/cmTC_69305.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69305.dir/build.make:86: recipe for target 'cmTC_69305' failed
+make[1]: *** [cmTC_69305] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69305/fast' failed
+make: *** [cmTC_69305/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff6b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff6b0.dir/build.make CMakeFiles/cmTC_ff6b0.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff6b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_ff6b0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff6b0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff6b0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ui64toa    CMakeFiles/cmTC_ff6b0.dir/CheckFunctionExists.c.o  -o cmTC_ff6b0 
+CMakeFiles/cmTC_ff6b0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ff6b0.dir/build.make:86: recipe for target 'cmTC_ff6b0' failed
+make[1]: *** [cmTC_ff6b0] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ff6b0/fast' failed
+make: *** [cmTC_ff6b0/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95246/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95246.dir/build.make CMakeFiles/cmTC_95246.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95246.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_95246.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95246
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95246.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_stricmp    CMakeFiles/cmTC_95246.dir/CheckFunctionExists.c.o  -o cmTC_95246 
+CMakeFiles/cmTC_95246.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_95246.dir/build.make:86: recipe for target 'cmTC_95246' failed
+make[1]: *** [cmTC_95246] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95246/fast' failed
+make: *** [cmTC_95246/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd515/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd515.dir/build.make CMakeFiles/cmTC_cd515.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd515.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_cd515.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd515
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd515.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strnicmp    CMakeFiles/cmTC_cd515.dir/CheckFunctionExists.c.o  -o cmTC_cd515 
+CMakeFiles/cmTC_cd515.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cd515.dir/build.make:86: recipe for target 'cmTC_cd515' failed
+make[1]: *** [cmTC_cd515] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cd515/fast' failed
+make: *** [cmTC_cd515/fast] Error 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd4b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd4b3.dir/build.make CMakeFiles/cmTC_dd4b3.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd4b3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_dd4b3.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd4b3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd4b3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysctlbyname    CMakeFiles/cmTC_dd4b3.dir/CheckFunctionExists.c.o  -o cmTC_dd4b3 
+CMakeFiles/cmTC_dd4b3.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dd4b3.dir/build.make:86: recipe for target 'cmTC_dd4b3' failed
+make[1]: *** [cmTC_dd4b3] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dd4b3/fast' failed
+make: *** [cmTC_dd4b3/fast] Error 2
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1098c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1098c.dir/build.make CMakeFiles/cmTC_1098c.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1098c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_1098c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1098c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1098c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=iconv_open    CMakeFiles/cmTC_1098c.dir/CheckFunctionExists.c.o  -o cmTC_1098c -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1098c.dir/build.make:86: recipe for target 'cmTC_1098c' failed
+make[1]: *** [cmTC_1098c] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1098c/fast' failed
+make: *** [cmTC_1098c/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78cca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78cca.dir/build.make CMakeFiles/cmTC_78cca.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78cca.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_78cca.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_78cca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78cca.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alloca    CMakeFiles/cmTC_78cca.dir/CheckFunctionExists.c.o  -o cmTC_78cca 
+CMakeFiles/cmTC_78cca.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x1f): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_78cca.dir/build.make:86: recipe for target 'cmTC_78cca' failed
+make[1]: *** [cmTC_78cca] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78cca/fast' failed
+make: *** [cmTC_78cca/fast] Error 2
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b155/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b155.dir/build.make CMakeFiles/cmTC_0b155.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b155.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0b155.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: audio/audiolib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0b155.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0b155.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0b155.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0b155/fast' failed
+make: *** [cmTC_0b155/fast] Error 2
+
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4865d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4865d.dir/build.make CMakeFiles/cmTC_4865d.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4865d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4865d.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: samplerate.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_4865d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4865d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4865d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4865d/fast' failed
+make: *** [cmTC_4865d/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5f4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5f4d.dir/build.make CMakeFiles/cmTC_e5f4d.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5f4d.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_RPI  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -o CMakeFiles/cmTC_e5f4d.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:30: fatal error: bcm_host.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_e5f4d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e5f4d.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e5f4d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e5f4d/fast' failed
+make: *** [cmTC_e5f4d/fast] Error 2
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd80b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd80b.dir/build.make CMakeFiles/cmTC_cd80b.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd80b.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGLES_V1   -o CMakeFiles/cmTC_cd80b.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: GLES/gl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_cd80b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cd80b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cd80b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cd80b/fast' failed
+make: *** [cmTC_cd80b/fast] Error 2
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21d44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21d44.dir/build.make CMakeFiles/cmTC_21d44.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21d44.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_VIVANTE_VDK   -o CMakeFiles/cmTC_21d44.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:28: fatal error: gc_vdk.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_21d44.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_21d44.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_21d44.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21d44/fast' failed
+make: *** [cmTC_21d44/fast] Error 2
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_235dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_235dd.dir/build.make CMakeFiles/cmTC_235dd.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_235dd.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_VIVANTE_EGL_FB   -o CMakeFiles/cmTC_235dd.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:4:36: fatal error: EGL/eglvivante.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_235dd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_235dd.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_235dd.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_235dd/fast' failed
+make: *** [cmTC_235dd/fast] Error 2
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file fcitx/frontend.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54d41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54d41.dir/build.make CMakeFiles/cmTC_54d41.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54d41.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_54d41.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: fcitx/frontend.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_54d41.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_54d41.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_54d41.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_54d41/fast' failed
+make: *** [cmTC_54d41/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76b9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76b9b.dir/build.make CMakeFiles/cmTC_76b9b.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76b9b.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTC_76b9b.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: tslib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_76b9b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_76b9b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_76b9b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_76b9b/fast' failed
+make: *** [cmTC_76b9b/fast] Error 2
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b78a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b78a.dir/build.make CMakeFiles/cmTC_1b78a.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b78a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_1b78a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b78a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b78a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTC_1b78a.dir/CheckFunctionExists.c.o  -o cmTC_1b78a -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1b78a.dir/build.make:86: recipe for target 'cmTC_1b78a' failed
+make[1]: *** [cmTC_1b78a] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1b78a/fast' failed
+make: *** [cmTC_1b78a/fast] Error 2
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab45b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab45b.dir/build.make CMakeFiles/cmTC_ab45b.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab45b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ab45b.dir/CheckIncludeFile.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: libusb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ab45b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ab45b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ab45b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ab45b/fast' failed
+make: *** [cmTC_ab45b/fast] Error 2
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5e63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5e63.dir/build.make CMakeFiles/cmTC_f5e63.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5e63.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_f5e63.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5e63
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5e63.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTC_f5e63.dir/CheckFunctionExists.c.o  -o cmTC_f5e63 -lusb 
+CMakeFiles/cmTC_f5e63.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `hid_init'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f5e63.dir/build.make:86: recipe for target 'cmTC_f5e63' failed
+make[1]: *** [cmTC_f5e63] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f5e63/fast' failed
+make: *** [cmTC_f5e63/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2e0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2e0e.dir/build.make CMakeFiles/cmTC_f2e0e.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2e0e.dir/src.c.o
+/usr/bin/cc   -DHAVE_USBHID  -DHAVE_USB_H   -o CMakeFiles/cmTC_f2e0e.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:10:34: fatal error: dev/usb/usb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_f2e0e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f2e0e.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f2e0e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2e0e/fast' failed
+make: *** [cmTC_f2e0e/fast] Error 2
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1df5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1df5a.dir/build.make CMakeFiles/cmTC_1df5a.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1df5a.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREAD_NP_H  -DHAVE_USB_H -D_REENTRANT -pthread   -o CMakeFiles/cmTC_1df5a.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:3:34: fatal error: pthread_np.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_1df5a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1df5a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1df5a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1df5a/fast' failed
+make: *** [cmTC_1df5a/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e3ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e3ea.dir/build.make CMakeFiles/cmTC_0e3ea.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e3ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -DHAVE_USB_H -D_REENTRANT -pthread   -o CMakeFiles/cmTC_0e3ea.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e3ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3ea.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -DHAVE_USB_H -D_REENTRANT -pthread    CMakeFiles/cmTC_0e3ea.dir/CheckFunctionExists.c.o  -o cmTC_0e3ea 
+CMakeFiles/cmTC_0e3ea.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0e3ea.dir/build.make:86: recipe for target 'cmTC_0e3ea' failed
+make[1]: *** [cmTC_0e3ea] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e3ea/fast' failed
+make: *** [cmTC_0e3ea/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe0dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe0dc.dir/build.make CMakeFiles/cmTC_fe0dc.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe0dc.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_fe0dc.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c:1:0: error: -mpreferred-stack-boundary=2 is not between 4 and 12
+ int x = 0; int main(int argc, char **argv) {}
+ ^
+CMakeFiles/cmTC_fe0dc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fe0dc.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fe0dc.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fe0dc/fast' failed
+make: *** [cmTC_fe0dc/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7809c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7809c.dir/build.make CMakeFiles/cmTC_7809c.dir/build
+make[1]: Entering directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7809c.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_7809c.dir/src.c.o   -c /home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_7809c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7809c.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7809c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jamesfolk/work/test_project_repo/buildbot_linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7809c/fast' failed
+make: *** [cmTC_7809c/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }

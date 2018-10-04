@@ -1453,6 +1453,14 @@ njligames-njlic_engine/njli/platform/Macros.h
 njligames-njlic_engine/njli/platform/android_file.h
 stdio.h
 -
+android/asset_manager_jni.h
+-
+assert.h
+-
+errno.h
+-
+unistd.h
+-
 
 thirdparty/sdl2/lib/linux/include/SDL_assert.h
 SDL_config.h

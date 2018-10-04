@@ -20,7 +20,6 @@ CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/Camera.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/Clock.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/CollisionResponse.h
-CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/CubeBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/Font.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/Image.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/JLIFactoryTypes.h
@@ -71,10 +70,12 @@ CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/XmlBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.h
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/CubeBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.h
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.h
@@ -140,6 +141,7 @@ CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/Light.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/Material.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/MaterialProperty.h
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/MeshGeometry.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/ParticleEmitter.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/Plane.h
 CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/njli/graphics/ShaderProgram.h

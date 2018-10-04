@@ -4564,6 +4564,42 @@ njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.s:
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.s
 .PHONY : njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.s
 
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.o: njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+
+.PHONY : njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.o
+
+# target to build an object file
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+.PHONY : njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.i: njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+
+.PHONY : njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.i
+
+# target to preprocess a source file
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+.PHONY : njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.i
+
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.s: njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+
+.PHONY : njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.s
+
+# target to generate assembly for a file
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+.PHONY : njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.s
+
 njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.o: njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o
 
 .PHONY : njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.o
@@ -6472,6 +6508,42 @@ njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBui
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.s
 .PHONY : njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.s
 
+njligames-njlic_engine/njli/graphics/Cube.o: njligames-njlic_engine/njli/graphics/Cube.cpp.o
+
+.PHONY : njligames-njlic_engine/njli/graphics/Cube.o
+
+# target to build an object file
+njligames-njlic_engine/njli/graphics/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+.PHONY : njligames-njlic_engine/njli/graphics/Cube.cpp.o
+
+njligames-njlic_engine/njli/graphics/Cube.i: njligames-njlic_engine/njli/graphics/Cube.cpp.i
+
+.PHONY : njligames-njlic_engine/njli/graphics/Cube.i
+
+# target to preprocess a source file
+njligames-njlic_engine/njli/graphics/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.i
+.PHONY : njligames-njlic_engine/njli/graphics/Cube.cpp.i
+
+njligames-njlic_engine/njli/graphics/Cube.s: njligames-njlic_engine/njli/graphics/Cube.cpp.s
+
+.PHONY : njligames-njlic_engine/njli/graphics/Cube.s
+
+# target to generate assembly for a file
+njligames-njlic_engine/njli/graphics/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.s
+.PHONY : njligames-njlic_engine/njli/graphics/Cube.cpp.s
+
 njligames-njlic_engine/njli/graphics/ImGuizmo.o: njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o
 
 .PHONY : njligames-njlic_engine/njli/graphics/ImGuizmo.o
@@ -6724,6 +6796,42 @@ njligames-njlic_engine/njli/graphics/Skinner.cpp.s:
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.s
 .PHONY : njligames-njlic_engine/njli/graphics/Skinner.cpp.s
 
+njligames-njlic_engine/njli/graphics/Sprite2D.o: njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+
+.PHONY : njligames-njlic_engine/njli/graphics/Sprite2D.o
+
+# target to build an object file
+njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+.PHONY : njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+
+njligames-njlic_engine/njli/graphics/Sprite2D.i: njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+
+.PHONY : njligames-njlic_engine/njli/graphics/Sprite2D.i
+
+# target to preprocess a source file
+njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+.PHONY : njligames-njlic_engine/njli/graphics/Sprite2D.cpp.i
+
+njligames-njlic_engine/njli/graphics/Sprite2D.s: njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+
+.PHONY : njligames-njlic_engine/njli/graphics/Sprite2D.s
+
+# target to generate assembly for a file
+njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+.PHONY : njligames-njlic_engine/njli/graphics/Sprite2D.cpp.s
+
 njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.o: njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o
 
 .PHONY : njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.o
@@ -6832,42 +6940,6 @@ njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.s:
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.s
 .PHONY : njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.cpp.s
 
-njligames-njlic_engine/njli/graphics/opengl_2/Cube.o: njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Cube.o
-
-# target to build an object file
-njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o:
-	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.o
-
-njligames-njlic_engine/njli/graphics/opengl_2/Cube.i: njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Cube.i
-
-# target to preprocess a source file
-njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i:
-	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.i
-
-njligames-njlic_engine/njli/graphics/opengl_2/Cube.s: njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Cube.s
-
-# target to generate assembly for a file
-njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s:
-	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp.s
-
 njligames-njlic_engine/njli/graphics/opengl_2/Geometry.o: njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp.o
 
 .PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Geometry.o
@@ -6940,6 +7012,42 @@ njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.s:
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.s
 .PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp.s
 
+njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.o: njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+
+.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.o
+
+# target to build an object file
+njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.o
+
+njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.i: njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+
+.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.i
+
+# target to preprocess a source file
+njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.i
+
+njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.s: njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+
+.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.s
+
+# target to generate assembly for a file
+njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp.s
+
 njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.o: njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.o
 
 .PHONY : njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.o
@@ -6975,42 +7083,6 @@ njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.s:
 	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.s
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.s
 .PHONY : njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp.s
-
-njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.o: njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.o
-
-# target to build an object file
-njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o:
-	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.o
-
-njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.i: njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.i
-
-# target to preprocess a source file
-njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i:
-	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.i
-
-njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.s: njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
-
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.s
-
-# target to generate assembly for a file
-njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s:
-	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
-	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
-	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
-	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
-.PHONY : njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp.s
 
 njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.o: njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp.o
 
@@ -9993,6 +10065,9 @@ help:
 	@echo "... njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.o"
 	@echo "... njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.i"
 	@echo "... njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.s"
+	@echo "... njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.o"
+	@echo "... njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.i"
+	@echo "... njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.s"
 	@echo "... njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.o"
 	@echo "... njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.i"
 	@echo "... njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.s"
@@ -10152,6 +10227,9 @@ help:
 	@echo "... njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.o"
 	@echo "... njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.i"
 	@echo "... njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.s"
+	@echo "... njligames-njlic_engine/njli/graphics/Cube.o"
+	@echo "... njligames-njlic_engine/njli/graphics/Cube.i"
+	@echo "... njligames-njlic_engine/njli/graphics/Cube.s"
 	@echo "... njligames-njlic_engine/njli/graphics/ImGuizmo.o"
 	@echo "... njligames-njlic_engine/njli/graphics/ImGuizmo.i"
 	@echo "... njligames-njlic_engine/njli/graphics/ImGuizmo.s"
@@ -10173,6 +10251,9 @@ help:
 	@echo "... njligames-njlic_engine/njli/graphics/Skinner.o"
 	@echo "... njligames-njlic_engine/njli/graphics/Skinner.i"
 	@echo "... njligames-njlic_engine/njli/graphics/Skinner.s"
+	@echo "... njligames-njlic_engine/njli/graphics/Sprite2D.o"
+	@echo "... njligames-njlic_engine/njli/graphics/Sprite2D.i"
+	@echo "... njligames-njlic_engine/njli/graphics/Sprite2D.s"
 	@echo "... njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.o"
 	@echo "... njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.i"
 	@echo "... njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.s"
@@ -10182,21 +10263,18 @@ help:
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.o"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.i"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/AbstractRender.s"
-	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Cube.o"
-	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Cube.i"
-	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Cube.s"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Geometry.o"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Geometry.i"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Geometry.s"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.o"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.i"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.s"
+	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.o"
+	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.i"
+	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.s"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.o"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.i"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.s"
-	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.o"
-	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.i"
-	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.s"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.o"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.i"
 	@echo "... njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.s"

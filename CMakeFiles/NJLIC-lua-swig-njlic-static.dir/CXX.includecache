@@ -95,6 +95,10 @@ MaterialProperty.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/swig/lua/Linux/MaterialProperty.h
 MaterialPropertyBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/swig/lua/Linux/MaterialPropertyBuilder.h
+MeshGeometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/swig/lua/Linux/MeshGeometry.h
+MeshGeometryBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/swig/lua/Linux/MeshGeometryBuilder.h
 Node.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/swig/lua/Linux/Node.h
 NodeBuilder.h
@@ -621,18 +625,6 @@ AbstractBuilder.h
 njligames-njlic_engine/njli/AbstractBuilder.h
 AbstractFactoryObject.h
 njligames-njlic_engine/njli/AbstractFactoryObject.h
-lua.hpp
-njligames-njlic_engine/njli/lua.hpp
-
-njligames-njlic_engine/njli/CubeBuilder.h
-AbstractBuilder.h
-njligames-njlic_engine/njli/AbstractBuilder.h
-Util.h
-njligames-njlic_engine/njli/Util.h
-btAlignedObjectArray.h
-njligames-njlic_engine/njli/btAlignedObjectArray.h
-btSerializer.h
-njligames-njlic_engine/njli/btSerializer.h
 lua.hpp
 njligames-njlic_engine/njli/lua.hpp
 
@@ -1286,6 +1278,18 @@ njligames-njlic_engine/njli/builders/graphics/btSerializer.h
 lua.hpp
 njligames-njlic_engine/njli/builders/graphics/lua.hpp
 
+njligames-njlic_engine/njli/builders/graphics/CubeBuilder.h
+AbstractBuilder.h
+njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
+Util.h
+njligames-njlic_engine/njli/builders/graphics/Util.h
+btAlignedObjectArray.h
+njligames-njlic_engine/njli/builders/graphics/btAlignedObjectArray.h
+btSerializer.h
+njligames-njlic_engine/njli/builders/graphics/btSerializer.h
+lua.hpp
+njligames-njlic_engine/njli/builders/graphics/lua.hpp
+
 njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
@@ -1323,6 +1327,18 @@ lua.hpp
 njligames-njlic_engine/njli/builders/graphics/lua.hpp
 
 njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.h
+AbstractBuilder.h
+njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
+Util.h
+njligames-njlic_engine/njli/builders/graphics/Util.h
+btAlignedObjectArray.h
+njligames-njlic_engine/njli/builders/graphics/btAlignedObjectArray.h
+btSerializer.h
+njligames-njlic_engine/njli/builders/graphics/btSerializer.h
+lua.hpp
+njligames-njlic_engine/njli/builders/graphics/lua.hpp
+
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
 Util.h
@@ -2077,8 +2093,8 @@ njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
 njligames-njlic_engine/njli/graphics/Cube.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
-Geometry.h
-njligames-njlic_engine/njli/graphics/Geometry.h
+MeshGeometry.h
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -2097,18 +2113,18 @@ AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
 AbstractFactoryObject.h
 njligames-njlic_engine/njli/graphics/AbstractFactoryObject.h
-lua.hpp
-njligames-njlic_engine/njli/graphics/lua.hpp
-bitset
+GraphicsPlatform.h
+njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
+vector
 -
 string
 -
-JLIFactoryTypes.h
-njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
+btTransform.h
+njligames-njlic_engine/njli/graphics/btTransform.h
 btVector2.h
 njligames-njlic_engine/njli/graphics/btVector2.h
-btVector3.h
-njligames-njlic_engine/njli/graphics/btVector3.h
+lua.hpp
+njligames-njlic_engine/njli/graphics/lua.hpp
 
 njligames-njlic_engine/njli/graphics/LabelHUD.h
 AbstractBuilder.h
@@ -2162,6 +2178,12 @@ njligames-njlic_engine/njli/graphics/lua.hpp
 bitset
 -
 
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
+Geometry.h
+njligames-njlic_engine/njli/graphics/Geometry.h
+MeshGeometryBuilder.h
+njligames-njlic_engine/njli/graphics/MeshGeometryBuilder.h
+
 njligames-njlic_engine/njli/graphics/ParticleEmitter.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
@@ -2173,8 +2195,10 @@ lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
 njligames-njlic_engine/njli/graphics/Plane.h
-Geometry.h
-njligames-njlic_engine/njli/graphics/Geometry.h
+AbstractBuilder.h
+njligames-njlic_engine/njli/graphics/AbstractBuilder.h
+MeshGeometry.h
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -2193,6 +2217,8 @@ map
 -
 vector
 -
+GraphicsPlatform.h
+njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
 
 njligames-njlic_engine/njli/graphics/Skinner.h
 AbstractBuilder.h
@@ -2215,12 +2241,8 @@ njligames-njlic_engine/njli/graphics/lua.hpp
 njligames-njlic_engine/njli/graphics/Sprite2D.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
-Geometry.h
-njligames-njlic_engine/njli/graphics/Geometry.h
-SpriteFrameAtlas.h
-njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.h
-btTransform.h
-njligames-njlic_engine/njli/graphics/btTransform.h
+MeshGeometry.h
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 

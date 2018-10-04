@@ -187,6 +187,8 @@ btVector2.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/btVector2.h
 btVector3.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/btVector3.h
+ShaderProgram.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/ShaderProgram.h
 map
 -
 JsonJLI.h
@@ -253,18 +255,6 @@ AbstractBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/AbstractBuilder.h
 AbstractFactoryObject.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/AbstractFactoryObject.h
-lua.hpp
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/lua.hpp
-
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/CubeBuilder.h
-AbstractBuilder.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/AbstractBuilder.h
-Util.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/Util.h
-btAlignedObjectArray.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/btAlignedObjectArray.h
-btSerializer.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/btSerializer.h
 lua.hpp
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/lua.hpp
 
@@ -883,6 +873,10 @@ MaterialProperty.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/MaterialProperty.h
 MaterialPropertyBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/MaterialPropertyBuilder.h
+MeshGeometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/MeshGeometry.h
+MeshGeometryBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/MeshGeometryBuilder.h
 Node.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/Node.h
 NodeBuilder.h
@@ -2440,6 +2434,18 @@ JsonJLI.h
 btPrint.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btPrint.h
 
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/CubeBuilder.h
+AbstractBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
+Util.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/Util.h
+btAlignedObjectArray.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btAlignedObjectArray.h
+btSerializer.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btSerializer.h
+lua.hpp
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/lua.hpp
+
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.cpp
 DropdownHUDBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.h
@@ -2529,6 +2535,30 @@ btPrint.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btPrint.h
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.h
+AbstractBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
+Util.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/Util.h
+btAlignedObjectArray.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btAlignedObjectArray.h
+btSerializer.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btSerializer.h
+lua.hpp
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/lua.hpp
+
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp
+MeshGeometryBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
+JLIFactoryTypes.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/JLIFactoryTypes.h
+World.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/World.h
+JsonJLI.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/JsonJLI.h
+btPrint.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/btPrint.h
+
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
 AbstractBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
 Util.h
@@ -3894,23 +3924,51 @@ lua.hpp
 Log.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/builders/steering/behavior/Log.h
 
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Cube.cpp
+Cube.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Cube.h
+CubeBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/CubeBuilder.h
+GraphicsPlatform.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
+JLIFactoryTypes.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
+ShaderProgram.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ShaderProgram.h
+World.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/World.h
+Log.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Log.h
+JsonJLI.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/JsonJLI.h
+btPrint.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/btPrint.h
+
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Cube.h
+AbstractBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractBuilder.h
+MeshGeometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/MeshGeometry.h
+lua.hpp
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/lua.hpp
+
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Geometry.h
 AbstractBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractBuilder.h
 AbstractFactoryObject.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractFactoryObject.h
-lua.hpp
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/lua.hpp
-bitset
+GraphicsPlatform.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
+vector
 -
 string
 -
-JLIFactoryTypes.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
+btTransform.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/btTransform.h
 btVector2.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/btVector2.h
-btVector3.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/btVector3.h
+lua.hpp
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/lua.hpp
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp
 stddef.h
@@ -4016,6 +4074,12 @@ lua.hpp
 bitset
 -
 
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/MeshGeometry.h
+Geometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Geometry.h
+MeshGeometryBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/MeshGeometryBuilder.h
+
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp
 ParticleEmitter.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ParticleEmitter.h
@@ -4069,8 +4133,10 @@ btPrint.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/btPrint.h
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Plane.h
-Geometry.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Geometry.h
+AbstractBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractBuilder.h
+MeshGeometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -4089,6 +4155,8 @@ map
 -
 vector
 -
+GraphicsPlatform.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Skinner.cpp
 Skinner.h
@@ -4109,6 +4177,42 @@ AbstractBuilder.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractBuilder.h
 AbstractFactoryObject.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractFactoryObject.h
+lua.hpp
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/lua.hpp
+
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2D.cpp
+Sprite2D.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2D.h
+GraphicsPlatform.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
+JLIFactoryTypes.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
+Log.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Log.h
+Material.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Material.h
+MaterialProperty.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/MaterialProperty.h
+ShaderProgram.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/ShaderProgram.h
+Sprite2DBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2DBuilder.h
+World.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/World.h
+PhysicsShapeBox.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/PhysicsShapeBox.h
+PhysicsShapeBox2D.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/PhysicsShapeBox2D.h
+JsonJLI.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/JsonJLI.h
+btPrint.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/btPrint.h
+
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/Sprite2D.h
+AbstractBuilder.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/AbstractBuilder.h
+MeshGeometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -4168,55 +4272,29 @@ cstring
 string
 -
 
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Cube.cpp
-Cube.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Cube.h
-CubeBuilder.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/CubeBuilder.h
-GraphicsPlatform.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/GraphicsPlatform.h
-JLIFactoryTypes.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JLIFactoryTypes.h
-ShaderProgram.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.h
-World.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/World.h
-Log.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Log.h
-JsonJLI.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JsonJLI.h
-btPrint.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/btPrint.h
-
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.cpp
 Geometry.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.h
 GraphicsPlatform.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/GraphicsPlatform.h
-JLIFactoryTypes.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JLIFactoryTypes.h
-LevelOfDetail.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/LevelOfDetail.h
-Material.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Material.h
-MaterialProperty.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.h
-Node.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Node.h
+assert.h
+-
+iostream
+-
 ShaderProgram.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.h
+Camera.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Camera.h
+Node.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Node.h
 World.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/World.h
-btTransform.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/btTransform.h
 Log.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Log.h
 JsonJLI.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JsonJLI.h
 btPrint.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/btPrint.h
-Image.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Image.h
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.cpp
 MaterialProperty.h
@@ -4246,6 +4324,28 @@ btPrint.h
 SDL_log.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/SDL_log.h
 
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.cpp
+MeshGeometry.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MeshGeometry.h
+Node.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Node.h
+string
+-
+iostream
+-
+sstream
+-
+map
+-
+World.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/World.h
+Log.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Log.h
+JsonJLI.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JsonJLI.h
+btPrint.h
+/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/btPrint.h
+
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.cpp
 ShaderProgram.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.h
@@ -4267,34 +4367,6 @@ Geometry.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Geometry.h
 JsonJLI.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JsonJLI.h
-
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.cpp
-Sprite2D.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2D.h
-GraphicsPlatform.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/GraphicsPlatform.h
-JLIFactoryTypes.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JLIFactoryTypes.h
-Log.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Log.h
-Material.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Material.h
-MaterialProperty.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/MaterialProperty.h
-ShaderProgram.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/ShaderProgram.h
-Sprite2DBuilder.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/Sprite2DBuilder.h
-World.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/World.h
-PhysicsShapeBox.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/PhysicsShapeBox.h
-PhysicsShapeBox2D.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/PhysicsShapeBox2D.h
-JsonJLI.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/JsonJLI.h
-btPrint.h
-/home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/btPrint.h
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/graphics/opengl_2/WorldDebugDrawer.cpp
 WorldDebugDrawer.h
@@ -5431,6 +5503,14 @@ android_file.h
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/android_file.h
 stdio.h
 -
+android/asset_manager_jni.h
+-
+assert.h
+-
+errno.h
+-
+unistd.h
+-
 
 /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/easylogger.cpp
 easylogger.h
@@ -6356,18 +6436,6 @@ njligames-njlic_engine/njli/btVector3.h
 lua.hpp
 njligames-njlic_engine/njli/lua.hpp
 
-njligames-njlic_engine/njli/CubeBuilder.h
-AbstractBuilder.h
-njligames-njlic_engine/njli/AbstractBuilder.h
-Util.h
-njligames-njlic_engine/njli/Util.h
-btAlignedObjectArray.h
-njligames-njlic_engine/njli/btAlignedObjectArray.h
-btSerializer.h
-njligames-njlic_engine/njli/btSerializer.h
-lua.hpp
-njligames-njlic_engine/njli/lua.hpp
-
 njligames-njlic_engine/njli/Image.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/AbstractBuilder.h
@@ -6924,6 +6992,18 @@ njligames-njlic_engine/njli/builders/graphics/btSerializer.h
 lua.hpp
 njligames-njlic_engine/njli/builders/graphics/lua.hpp
 
+njligames-njlic_engine/njli/builders/graphics/CubeBuilder.h
+AbstractBuilder.h
+njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
+Util.h
+njligames-njlic_engine/njli/builders/graphics/Util.h
+btAlignedObjectArray.h
+njligames-njlic_engine/njli/builders/graphics/btAlignedObjectArray.h
+btSerializer.h
+njligames-njlic_engine/njli/builders/graphics/btSerializer.h
+lua.hpp
+njligames-njlic_engine/njli/builders/graphics/lua.hpp
+
 njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
@@ -6961,6 +7041,18 @@ lua.hpp
 njligames-njlic_engine/njli/builders/graphics/lua.hpp
 
 njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.h
+AbstractBuilder.h
+njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
+Util.h
+njligames-njlic_engine/njli/builders/graphics/Util.h
+btAlignedObjectArray.h
+njligames-njlic_engine/njli/builders/graphics/btAlignedObjectArray.h
+btSerializer.h
+njligames-njlic_engine/njli/builders/graphics/btSerializer.h
+lua.hpp
+njligames-njlic_engine/njli/builders/graphics/lua.hpp
+
+njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/builders/graphics/AbstractBuilder.h
 Util.h
@@ -7731,8 +7823,8 @@ njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
 njligames-njlic_engine/njli/graphics/Cube.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
-Geometry.h
-njligames-njlic_engine/njli/graphics/Geometry.h
+MeshGeometry.h
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -7751,18 +7843,18 @@ AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
 AbstractFactoryObject.h
 njligames-njlic_engine/njli/graphics/AbstractFactoryObject.h
-lua.hpp
-njligames-njlic_engine/njli/graphics/lua.hpp
-bitset
+GraphicsPlatform.h
+njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
+vector
 -
 string
 -
-JLIFactoryTypes.h
-njligames-njlic_engine/njli/graphics/JLIFactoryTypes.h
+btTransform.h
+njligames-njlic_engine/njli/graphics/btTransform.h
 btVector2.h
 njligames-njlic_engine/njli/graphics/btVector2.h
-btVector3.h
-njligames-njlic_engine/njli/graphics/btVector3.h
+lua.hpp
+njligames-njlic_engine/njli/graphics/lua.hpp
 
 njligames-njlic_engine/njli/graphics/ImGuizmo.h
 
@@ -7818,6 +7910,12 @@ njligames-njlic_engine/njli/graphics/lua.hpp
 bitset
 -
 
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
+Geometry.h
+njligames-njlic_engine/njli/graphics/Geometry.h
+MeshGeometryBuilder.h
+njligames-njlic_engine/njli/graphics/MeshGeometryBuilder.h
+
 njligames-njlic_engine/njli/graphics/ParticleEmitter.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
@@ -7829,8 +7927,10 @@ lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
 njligames-njlic_engine/njli/graphics/Plane.h
-Geometry.h
-njligames-njlic_engine/njli/graphics/Geometry.h
+AbstractBuilder.h
+njligames-njlic_engine/njli/graphics/AbstractBuilder.h
+MeshGeometry.h
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -7849,6 +7949,8 @@ map
 -
 vector
 -
+GraphicsPlatform.h
+njligames-njlic_engine/njli/graphics/GraphicsPlatform.h
 
 njligames-njlic_engine/njli/graphics/Skinner.h
 AbstractBuilder.h
@@ -7871,12 +7973,8 @@ njligames-njlic_engine/njli/graphics/lua.hpp
 njligames-njlic_engine/njli/graphics/Sprite2D.h
 AbstractBuilder.h
 njligames-njlic_engine/njli/graphics/AbstractBuilder.h
-Geometry.h
-njligames-njlic_engine/njli/graphics/Geometry.h
-SpriteFrameAtlas.h
-njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.h
-btTransform.h
-njligames-njlic_engine/njli/graphics/btTransform.h
+MeshGeometry.h
+njligames-njlic_engine/njli/graphics/MeshGeometry.h
 lua.hpp
 njligames-njlic_engine/njli/graphics/lua.hpp
 
@@ -8356,6 +8454,14 @@ unordered_map
 
 njligames-njlic_engine/njli/platform/android_file.h
 stdio.h
+-
+android/asset_manager_jni.h
+-
+assert.h
+-
+errno.h
+-
+unistd.h
 -
 
 njligames-njlic_engine/njli/platform/linux/GraphicsPlatform.h
