@@ -13,4 +13,5 @@ lua
 luac
 tagfile
 
+.DS_Store
 
