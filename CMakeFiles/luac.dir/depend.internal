@@ -37344,6 +37344,14 @@ CMakeFiles/luac.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o
  /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/Macros.h
  /home/jamesfolk/work/test_project_repo/buildbot_linux/njligames-njlic_engine/njli/platform/NJLIInterface.h
  njligames-njlic_engine/njli/platform/linux/GraphicsPlatform.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btAlignedAllocator.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btMatrix3x3.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btMinMax.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btQuadWord.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btQuaternion.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btScalar.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btTransform.h
+ thirdparty/bullet3/lib/linux/include/bullet3/LinearMath/btVector3.h
  thirdparty/glm/lib/linux/include/glm/glm/common.hpp
  thirdparty/glm/lib/linux/include/glm/glm/detail/_fixes.hpp
  thirdparty/glm/lib/linux/include/glm/glm/detail/_swizzle.hpp
