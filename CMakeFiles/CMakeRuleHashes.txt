@@ -1,9 +1,3 @@
 # Hashes of file build rules.
-8fecc84f5648977791900ec21bb79d20 CMakeFiles/NJLIC-documentation
-d13a88edd6be2a690cf843d0d8fd8306 CMakeFiles/clang-format
-942669c067d82c55d198d8ec68ec9ad1 CMakeFiles/cppcheck
-9ef657bf195a826d509a66f16e4b7600 CMakeFiles/gen_NJLIC-lua-swig-bullet3-static_bullet3LUA_wrap
-9ef657bf195a826d509a66f16e4b7600 CMakeFiles/gen_NJLIC-lua-swig-njlic-static_njlicLUA_wrap
-7bcb0c2f1f1f21908dc3ef84303bf5e1 CMakeFiles/uninstall
-ec6a018fd8354771bf59931daf8be8bf njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.stamp
-ec3d8bce25e2c230266469538b955440 njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp
+0fc33ad3662e1fef606076240a35b8c1 njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.stamp
+dc2daf480e85a07aa40c70a0bb93783d njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp

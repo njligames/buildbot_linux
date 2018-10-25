@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/home/jamesfolk/work/test_project_repo/buildbot_linux/install/Debug
+prefix=/home/jamesfolk/work/test_project_repo/buildbot_linux/install/MinSizeRel
 exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib

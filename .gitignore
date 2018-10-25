@@ -14,4 +14,11 @@ luac
 tagfile
 
 .DS_Store
+.ninja_deps
+.ninja_log
+NJLIC-exe
+NJLIC.spec
+build.ninja
+rules.ninja
+
 
