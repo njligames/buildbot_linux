@@ -1,6 +1,6 @@
 # sdl pkg-config source file
 
-prefix=/home/jamesfolk/work/test_project_repo/buildbot_linux/install/MinSizeRel
+prefix=/home/jamesfolk/work/test_project_repo/buildbot_linux/install/Debug
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

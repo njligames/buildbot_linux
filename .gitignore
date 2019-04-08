@@ -22,3 +22,6 @@ build.ninja
 rules.ninja
 
 
+CMakeFiles/
+CMakeCache.txt
+*.deb

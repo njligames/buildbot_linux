@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-0fc33ad3662e1fef606076240a35b8c1 njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.stamp
-dc2daf480e85a07aa40c70a0bb93783d njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.stamp
